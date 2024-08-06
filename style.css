@@ -1,0 +1,32 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    background-color: aqua;
+    height: 300px;
+}
+
+.staff {
+    background-color: beige;
+    height: 300px;
+}
+
+.quote {
+    background-color: bisque;
+    height: 250px;
+}
+
+.purchase {
+    background-color: brown;
+    height: 200px;
+}
+
+.footer {
+    background-color: antiquewhite;
+    height: 75px;
+}
