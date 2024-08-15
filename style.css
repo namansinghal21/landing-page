@@ -4,11 +4,12 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .top {
     background-color: rgb(23, 55, 80);
-    height: 400px;
+    padding-bottom: 50px;
 }
 
 .menu {
@@ -146,12 +147,11 @@ img {
 }
 
 .img-panel {
-    height: 400px;
     background: url("./images/michael.jpeg") fixed 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    flex-grow: 0;
+    padding: 50px;
 }
 
 .container {
