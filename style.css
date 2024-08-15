@@ -145,17 +145,89 @@ img {
     width: 250px;
 }
 
+.img-panel {
+    height: 400px;
+    background: url("./images/michael.jpeg") fixed 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-grow: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: rgb(229, 231, 234);
+    border-radius: 20px;
+    width: 700px;
+    height: 120px;
+    margin: 100px;
+    margin-left: 30px;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: 5px;
+    padding-top: 30px;
+    gap: 15px;
+}
+
 .quote {
-    background-color: bisque;
-    height: 250px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.by {
+    padding-right: 40px;
 }
 
 .purchase {
-    background-color: brown;
-    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.footer {
-    background-color: antiquewhite;
-    height: 75px;
+.box {
+    display: flex;
+    width: 750px;
+    background-color: rgb(229, 231, 234);
+    padding: 30px;
+    border-radius: 20px;
+    justify-content: space-around;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.purchase .box .text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: black;
+    width: 425px;
+}
+
+.text .upper, .text .lower {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.text .upper {
+    font-size: 20px;
+}
+
+.text .lower {
+    font-size: 18px;
+}
+
+.box button {
+    background-color: rgb(229, 231, 234);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.purchase {
+    background-color: rgb(23, 55, 80);
+    height: 200px;
 }
