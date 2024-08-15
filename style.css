@@ -4,7 +4,6 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
-    flex: 1;
 }
 
 .top {
@@ -147,27 +146,30 @@ img {
 }
 
 .img-panel {
+    display: flex;
+    flex: 1 1 auto;
     background: url("./images/michael.jpeg") fixed 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 50px;
+
 }
 
 .container {
     display: flex;
     flex-direction: column;
+    flex: 1 1 auto;
     align-items: end;
     background-color: rgb(229, 231, 234);
     border-radius: 20px;
-    width: 700px;
-    height: 120px;
+    max-width: 700px;
     margin: 100px;
     margin-left: 30px;
     margin-top: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    gap: 5px;
     padding-top: 30px;
+    padding-bottom: 20px;
     gap: 15px;
 }
 
@@ -178,6 +180,7 @@ img {
 
 .by {
     padding-right: 40px;
+    padding-left: 80px;
 }
 
 .purchase {
